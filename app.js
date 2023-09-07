@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div>
       <Header />
-      {/* El contenido de tu tienda de ropa iría aquí */}
+      {/* poner aqui contenido tienda ropa*/}
     </div>
   );
 };

@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -28,7 +28,7 @@ header {
               width: 50%;
 }
     
-         ul {
+         ul{
         
             padding: 0;
         }
@@ -53,7 +53,7 @@ color:black;
            color:black;
           text-decoration:none;
           margin-right: 0;
-        }
+       }
        #content {
     position: relative;
 }
@@ -63,56 +63,10 @@ color:black;
     left: 0px;
 }
  
-.categorias{
-color:Black;
-font-size: 40px;
-   text-align:left;
-   font-family:"Lucida Console", "Courier New", monospace;
+#fondo{
+   background-color:#FFFFFF;
 }
  
- 
-div.gallery {
-  margin: 10px;
-  border: 1px solid black;
-  float: left;
-  width: 190px;
-}
- 
-div.gallery:hover {
-  border: 1px solid #777;
-}
- 
-div.gallery img {
-  width: 100%;
-  height: 200px;
-}
- 
-div.desc {
-  padding: 15px;
-  text-align: center;
- 
-}
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.button {
-  background-color: #ffb6c1;
- 
-  color: white;
-  padding: 10px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-.button:hover {
-  background-color: #FFFFFF;
-  color: Pink;
-}
 footer{
 color:Black;
 font-size: 20px;
@@ -124,10 +78,80 @@ font-size: 20px;
  
  
     color:Black;
-    background-color: #FFFFFF;
+    background-color: #FF92A5;
     text-align: center;
 }
  
+ 
+ 
+ 
+body{
+background:#FF92A5;
+margin:0}
+ 
+.form{
+width:340px;
+height:440px;
+background:#FFFFFF;
+border-radius:8px;
+box-shadow:0 0 40px -10px #000;
+margin:calc(50vh - 220px) auto;
+padding:1px 30px;
+max-width:calc(100vw - 50px);
+box-sizing:border-box;
+font-family:'Montserrat',sans-serif;
+position:relative}
+ 
+ 
+ 
+input{
+width:100%;
+padding:7px;
+box-sizing:border-box;
+background:none;
+outline:none;
+resize:none;
+border:0;font-family:'Montserrat',sans-serif;transition:all .3s;
+border-bottom:2px solid #000000}
+ 
+input:focus{
+border-bottom:2px solid #000000}
+ 
+p:before{
+content:attr(type);
+display:block;
+margin:20px 0 0;
+font-size:14px;
+color:#000000}
+ 
+#send{
+float:right;
+padding:10px 12px;
+margin:0px 0 0;
+font-family:'Montserrat',sans-serif;border:2px solid #000000;
+background:0;
+color:#5a5a6e;
+cursor:pointer;
+transition:all .3s}
+ 
+#send:hover{
+background:#FF92A5;
+color:#fff}
+ 
+.num{
+content:'Hi';
+position:absolute;
+bottom:-23px;right:-20px;
+background:#FFFFFF;
+color:#000000;
+width:320px;
+padding:16px 4px 16px 0;
+border-radius:6px;font-size:13px;
+box-shadow:10px 10px 40px -14px #000}
+ 
+span{
+margin:0 5px 0 15px
+}
 .button2{
 background-color: white;
   color: black;
@@ -154,7 +178,7 @@ font-size: 15px;
  
 .dropdown {
   position: relative;
- display: inline-block;
+  display: inline-block;
 }
  
 .dropdown-content {
@@ -182,7 +206,9 @@ font-size: 15px;
 .dropdown:hover .dropbtn {
   background-color: #FF92A5;
 }
-</style>
+ 
+                                          
+              </style>
 </head>
 <body>
 <header>
@@ -210,456 +236,38 @@ font-size: 15px;
             </ul>
         </nav>
       
-    </header>
- 
- 
-<p  id="Zapatos de piso" class="categorias" >Zapato de piso</p>
-<div class="gallery">
-  <a target="_blank" href="">
-    <img src="https://th.bing.com/th/id/OIP.2bhID0qhEGVVdb88vwXcVQHaD6?w=340&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Cinque Terre" width="600" height="400">
-  </a>
-  <div class="desc">Zapato charol hebillas
-Precio actual $ 1,499.00
- 
- 
-<label for="quantity" id="quantity" >Cantidad</label>
-<input type="number" class="button2" id="quantity" name="quantity" min="1" max="20">
- 
-<a href="formularioS.HTML" class="button">Comprar</a>
- 
-</div>
-</div>
- 
-<div class="gallery">
-  <a target="_blank" href="img_forest.jpg">
-    <img src="https://th.bing.com/th/id/OIP.WeXIx1wegKmYMg3xW3DfYAHaFj?w=265&h=199&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Forest" width="600" height="400">
-  </a>
-  <div class="desc">Mocasín piel metalico
-Precio actual $ 1,899.00
- 
- 
-<label for="quantity" id="quantity" >Cantidad</label>
-<input type="number" class="button2" id="quantity" name="quantity" min="1" max="20">
- 
- 
- 
-<a href="formularioS.HTML" class="button">Comprar</a>
- 
-</div>
-</div>
- 
-<div class="gallery">
-  <a target="_blank" href="img_lights.jpg">
-    <img src="https://th.bing.com/th/id/OIP.3kCatz7WQCkKp2Z-XGk32AHaHa?w=199&h=199&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Northern Lights" width="600" height="400">
-  </a>
-  <div class="desc">Zueco piel hebilla
-Precio actual $ 2,499.00
- 
- 
-<label for="quantity" id="quantity" >Cantidad</label>
-<input type="number" class="button2" id="quantity" name="quantity" min="1" max="20">
-<a href="FormularioS.HTML" class="button">Comprar</a>
-</div>
-</div>
- 
-<div class="gallery">
-  <a target="_blank" href="img_mountains.jpg">
-    <img src="https://th.bing.com/th/id/OIP.YgEmuHzixQSOIVP3OqF6bgHaFY?w=247&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Mountains" width="600" height="400">
-  </a>
-  <div class="desc">Zapato punta talonado
-Precio actual $ 1,299.00
- 
- 
-<label for="quantity" id="quantity" >Cantidad</label>
-<input type="number" class="button2" id="quantity" name="quantity" min="1" max="20">
-<a href="formularioS.HTML" class="button">Comprar</a>
-</div>
-</div>
-<div class="gallery">
-  <a target="_blank" href="img.zapatos">
-    <img src="https://th.bing.com/th/id/OIP.XnmD-nmEg32nGn0YIO2TGwHaDk?w=302&h=168&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Mountains" width="600" height="400">
-  </a>
-  <div class="desc">Zapato salón asimétrico
-  Precio actual $1,299.00
- 
- <label for="quantity" id="quantity" >Cantidad</label>
-<input type="number" class="button2" id="quantity" name="quantity" min="1" max="20">
-<a href="formularioS.HTML" class="button">Comprar</a>
-</div>
-</div>
-<div class="gallery">
-  <a target="_blank" href="img_mountains.jpg">
-    <img src="https://th.bing.com/th/id/OIP.OamvELuO1QfAR0ZwP7M1HgHaHa?w=169&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Mountains" width="600" height="400">
-  </a>
-  <div class="desc">Mocasín  de piel rojo
-Precio actual $ 2,499.00
- 
- 
-<label for="quantity" id="quantity" >Cantidad</label>
-<input type="number" class="button2" id="quantity" name="quantity" min="1" max="20">
-<a href="formularioS.HTML" class="button">Comprar</a>
-</div>
-</div>
-<div class="clearfix"></div>
- 
-<div style="padding:6px;">
-<p  id="tacones"class="categorias">Tacones</p>
- 
- 
-</div>
-<div class="gallery">
-  <a target="_blank" href="img_mountains.jpg">
-    <img src="https://th.bing.com/th/id/OIP.sJLCBh_amL0PHsGbWmdSdgHaHa?w=187&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Mountains" width="600" height="400">
-  </a>
-  <div class="desc">Zapato tacón bloque
-Precio actual $ 1,299.00
- 
- 
-<label for="quantity" id="quantity" >Cantidad</label>
-<input type="number" class="button2" id="quantity" name="quantity" min="1" max="20">
-<a href="formularioS.HTML" class="button">Comprar</a>
- 
-</div>
-</div>
-<div class="gallery">
-  <a target="_blank" href="img_lights.jpg">
-    <img src="https://th.bing.com/th/id/OIP.MPJ0_58QnQ94CjGZq9xnLQHaGV?w=216&h=185&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Northern Lights" width="600" height="400">
-  </a>
-  <div class="desc">Zapato punta tacón
-Precio actual $ 999.00
- 
- 
-<label for="quantity" id="quantity" >Cantidad</label>
-<input type="number" class="button2" id="quantity" name="quantity" min="1" max="20">
-<a href="formularioS.HTML" class="button">Comprar</a>
-</div>
-</div>
-<div class="gallery">
-  <a target="_blank" href="img_mountains.jpg">
-    <img src="https://th.bing.com/th/id/OIP.sN-Qti4WJYCnuuo761eUPQHaHa?w=211&h=211&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Mountains" width="600" height="400">
-  </a>
-  <div class="desc">Zapato bicolor tacón
-Precio actual $ 3,299.00
- 
- 
-<label for="quantity" id="quantity" >Cantidad</label>
-<input type="number" class="button2" id="quantity" name="quantity" min="1" max="20">
-<a href="formularioS.HTML" class="button">Comprar</a>
-</div>
-</div>
-<div class="gallery">
-  <a target="_blank" href="img_mountains.jpg">
-    <img src="https://th.bing.com/th/id/OIP.1HHZs4qHc7kHn3PtJBN0NQHaHa?w=220&h=220&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Mountains" width="600" height="400">
-  </a>
-  <div class="desc">Zapato metalizado
-Precio actual $ 2,199.00
- 
- 
-<label for="quantity" id="quantity" >Cantidad</label>
-<input type="number" class="button2" id="quantity" name="quantity" min="1" max="20">
-<a href="formularioS.HTML" class="button">Comprar</a>
-</div>
-</div>
-<div class="gallery">
-  <a target="_blank" href="img_mountains.jpg">
-    <img src="https://th.bing.com/th/id/OIP.o-Jzd5aDIbh8dpuLlUUuGAHaHc?w=202&h=203&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Mountains" width="600" height="400">
-  </a>
-  <div class="desc">Zapato brillante plata
-Precio actual $ 2,199.00
- 
- 
-<label for="quantity" id="quantity" >Cantidad</label>
-<input type="number" class="button2" id="quantity" name="quantity" min="1" max="20">
-<a href="formularioS.HTML" class="button">Comprar</a>
- 
-</div>
-</div>
-<div class="gallery">
-  <a target="_blank" href="img_mountains.jpg">
-    <img src="https://th.bing.com/th/id/OIP.CpyjIGB_L7AEAhBP5O8fugHaJ4?w=139&h=185&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Mountains" width="600" height="400">
-  </a>
-  <div class="desc"> Tacón negro opentoed
-  Precio actual $1,499.00
+    </header>    
  
   
-<label for="quantity" id="quantity" >Cantidad</label>
-<input type="number" class="button2" id="quantity" name="quantity" min="1" max="20">
-  <a href="formularioS.HTML" class="button">Comprar</a>
-  </div>
-  </div>
-  <div class="clearfix"></div>
- 
-<div style="padding:6px;">
-  <p  id="botas" class="categorias">Botas</p>
-  </div>
-  <div class="gallery">
-  <a target="_blank" href="">
-    <img src="https://th.bing.com/th/id/OIP.z3tDL01IFz1YNB5uTsnAVgHaHa?w=213&h=213&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Cinque Terre" width="600" height="400">
-  </a>
-  <div class="desc">Botín tacón coco
-Precio actual $ 1,299.00
- 
- 
- 
-<label for="quantity" id="quantity" >Cantidad</label>
-<input type="number" class="button2" id="quantity" name="quantity" min="1" max="20">
-<a href="formularioS.HTML" class="button">Comprar</a>
-</div>
-</div>
- 
-<div class="gallery">
-  <a target="_blank" href="img_forest.jpg">
-    <img src="https://th.bing.com/th/id/OIP.wKiT5WmUgpsvYPMnrl1prgHaHa?w=213&h=213&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Forest" width="600" height="400">
-  </a>
-  <div class="desc">Botín calcetín plataforma track
-Precio actual $ 1,899.00
- 
- 
-<label for="quantity" id="quantity" >Cantidad</label>
-<input type="number" class="button2" id="quantity" name="quantity" min="1" max="20">
-<a href="formularioS.HTML" class="button">Comprar</a>
-</div>
-</div>
- 
-<div class="gallery">
-  <a target="_blank" href="img_lights.jpg">
-    <img src="https://th.bing.com/th/id/OIP.zJ2_uA7EFO_owtV83mVSsQHaHa?w=190&h=190&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Northern Lights" width="600" height="400">
-  </a>
-  <div class="desc">Botín piel tacón bloque
-  Precio actual $2,199.00
- 
   
-<label for="quantity" id="quantity" >Cantidad</label>
-<input type="number" class="button2" id="quantity" name="quantity" min="1" max="20">
-  <a href="formularioS.HTML" class="button">Comprar</a>
-</div>
-</div>
-  <div class="gallery">
-  <a target="_blank" href="">
-    <img src="https://th.bing.com/th/id/OIP.foyLbeGwB-tMiBb5wgfT_gHaGu?w=218&h=198&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Cinque Terre" width="600" height="400">
-  </a>
-  <div class="desc">Botín hebilla panel elástico
-Precio actual $ 1,499.00
- 
- 
-<label for="quantity" id="quantity" >Cantidad</label>
-<input type="number" class="button2" id="quantity" name="quantity" min="1" max="20">
-<a href="formularioS.HTML" class="button">Comprar</a>
-</div>
-</div>
- 
-<div class="gallery">
-  <a target="_blank" href="img_forest.jpg">
-    <img src="https://th.bing.com/th/id/OIP.m60f9Meuej__GG6qL2-rJgHaHa?w=203&h=203&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Forest" width="600" height="400">
-  </a>
-  <div class="desc">Bota piel punta redonda
-  Precio actual $4,000.00
- 
   
-<label for="quantity" id="quantity" >Cantidad</label>
-<input type="number" class="button2" id="quantity" name="quantity" min="1" max="20">
-  <a href="formularioS.HTML" class="button">Comprar</a>
-</div>
-</div>
+  
+   <form class="form">
+  <p type="Nombre:"><input placeholder="Escribe tu nombre aqui.."></input></p>
+  <p type="Email:"><input placeholder="Escribre tu email aqui.."></input></p>
+  <p type="Direccion"><input placeholder="Escribe tu direccion aqui.."></input></p>
+<p type="Metodo de pago"><input placeholder="Escribe tu metodo de pago aqui.."></input></p>
+<p type="Telefono"><input placeholder="Escribe tu telefono aqui.."></input></p>
  
-<div class="gallery">
-  <a target="_blank" href="img_lights.jpg">
-    <img src="https://th.bing.com/th/id/OIP.QvkiVZe-dhX_lPRjeDMAOAHaHa?w=215&h=215&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Northern Lights" width="600" height="400">
-  </a>
-  <div class="desc">Bota piel cowboy
-Precio actual $ 2,999.00
- 
- 
-<label for="quantity" id="quantity" >Cantidad</label>
-<input type="number" class="button2" id="quantity" name="quantity" min="1" max="20">
-<a href="formularioS.HTML" class="button">Comprar</a>
-</div>
-</div>
-<div class="clearfix"></div>
- 
-<div style="padding:6px;">
- 
-  <p  id="sandalias" class="categorias">Sandalias</p>
+<button id="send">Enviar</button>
+  <div class="num">
+    <span class="fa fa-phone"></span>334 5153 054
+    <span class="fa fa-envelope-o"></span> ShoestoreMex@Hotmail.com
   </div>
-<div class="gallery">
-  <a target="_blank" href="">
-    <img src="https://th.bing.com/th/id/OIP.Dte60NFNZuyX7BBaVHBo7wHaHa?w=186&h=186&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Cinque Terre" width="600" height="400">
-  </a>
-  <div class="desc">Sandalia plataforma
-Precio actual $ 3,999.00
+</form>
  
+             
+             
  
-<label for="quantity" id="quantity" >Cantidad</label>
-<input type="number" class="button2" id="quantity" name="quantity" min="1" max="20">
-<a href="formularioS.HTML" class="button">Comprar</a>
-</div>
-</div>
- 
-<div class="gallery">
-  <a target="_blank" href="img_forest.jpg">
-    <img src="https://th.bing.com/th/id/OIP.A_-LoSNi9jGGiNT_29T_pgHaHa?w=173&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Forest" width="600" height="400">
-  </a>
-  <div class="desc">Sandalia detalle strass
-Precio actual $ 1,499.00
- 
- 
-<label for="quantity" id="quantity" >Cantidad</label>
-<input type="number" class="button2" id="quantity" name="quantity" min="1" max="20">
-<a href="formularioS.HTML" class="button">Comprar</a>
-</div>
-</div>
- 
-<div class="gallery">
-  <a target="_blank" href="img_lights.jpg">
-    <img src="https://th.bing.com/th/id/OIP.HDSaWa9DJhgB7pEClq8VzAHaHa?w=215&h=215&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Northern Lights" width="600" height="400">
-  </a>
-  <div class="desc">Sandalia metalizada
-Precio actual $ 1,899.00
- 
- 
-<label for="quantity" id="quantity" >Cantidad</label>
-<input type="number" class="button2" id="quantity" name="quantity" min="1" max="20">
-<a href="formularioS.HTML" class="button">Comprar</a>
-</div>
-</div>
-<div class="gallery">
-  <a target="_blank" href="">
-    <img src="https://th.bing.com/th/id/OIP.5LHXnsQH8q1cDBl98-XtZAHaHa?w=198&h=198&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Cinque Terre" width="600" height="400">
-  </a>
-  <div class="desc">Sandalia tacón
-Precio actual $ 1,899.00
- 
- 
-<label for="quantity" id="quantity" >Cantidad</label>
-<input type="number" class="button2" id="quantity" name="quantity" min="1" max="20">
-<a href="formularioS.HTML" class="button">Comprar</a>
-</div>
-</div>
- 
-<div class="gallery">
-  <a target="_blank" href="img_forest.jpg">
-    <img src="https://th.bing.com/th/id/OIP.JVV8lUtdMImLzUxrpRhzzwHaId?w=175&h=201&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Forest" width="600" height="400">
-  </a>
-  <div class="desc">Sandalia piel tachuelas
-Precio actual $ 749.00
- 
- 
-<label for="quantity" id="quantity" >Cantidad</label>
-<input type="number" class="button2" id="quantity" name="quantity" min="1" max="20">
-<a href="formularioS.HTML" class="button">Comprar</a>
-</div>
-</div>
- 
-<div class="gallery">
-  <a target="_blank" href="img_lights.jpg">
-    <img src="https://th.bing.com/th/id/OIP.MbezmS5Chq564khXehYHcwHaJL?w=162&h=201&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Northern Lights" width="600" height="400">
-  </a>
-  <div class="desc">Sandalia piel tacón
-Precio actual $ 2,999.00
- 
- 
-<label for="quantity" id="quantity" >Cantidad</label>
-<input type="number" class="button2" id="quantity" name="quantity" min="1" max="20">
-<a href="formularioS.HTML" class="button">Comprar</a>
-</div>
-</div>
-<div class="clearfix"></div>
-<div style="padding:6px;">
-  <p  id="tenis" class="categorias">Tenis</p>
-  </div>
-  <div class="gallery">
-  <a target="_blank" href="">
-    <img src="https://http2.mlstatic.com/nike-mujer-tenis-D_NQ_NP_824094-MCO25562421490_052017-F.jpg" alt="Cinque Terre" width="600" height="400">
-  </a>
-  <div class="desc">Tenis rosas y plateados
-Precio actual $ 1,899.00
- 
- 
- 
-<label for="quantity" id="quantity" >Cantidad</label>
-<input type="number" class="button2" id="quantity" name="quantity" min="1" max="20">
-<a href="formularioS.HTML" class="button">Comprar</a>
-</div>
-</div>
- 
-<div class="gallery">
-  <a target="_blank" href="img_lights.jpg">
-    <img src="https://http2.mlstatic.com/tenis-mujer-adidas-D_NQ_NP_725220-MCO25719373657_072017-F.jpg" alt="Northern Lights" width="600" height="400">
-  </a>
-  <div class="desc">Tenis blanco y negro
-Precio actual $ 1,999.00
- 
- 
-<label for="quantity" id="quantity" >Cantidad</label>
-<input type="number" class="button2" id="quantity" name="quantity" min="1" max="20">
-<a href="formularioS.HTML" class="button">Comprar</a>
-</div>
-</div>
- 
-<div class="gallery">
-  <a target="_blank" href="img_lights.jpg">
-    <img src="https://http2.mlstatic.com/tenis-zapatillas-nike-borrador-cortez-dama-promocion-D_NQ_NP_660225-MCO25391407971_022017-F.jpg" alt="Northern Lights" width="600" height="400">
-  </a>
-  <div class="desc">Tenis negro y rosa 
-Precio actual $ 1,299.00
- 
- 
-<label for="quantity" id="quantity" >Cantidad</label>
-<input type="number" class="button2" id="quantity" name="quantity" min="1" max="20">
-<a href="formularioS.HTML" class="button">Comprar</a>
-</div>
-</div>
-<div class="gallery">
-  <a target="_blank" href="img_lights.jpg">
-    <img src="https://resources.claroshop.com/medios-plazavip/s2/12476/1763795/5f6c214b08cdb-96996-1600x1600.jpg" alt="Northern Lights" width="600" height="400">
-  </a>
-  <div class="desc">Tenis blanco y rosa
-Precio actual $ 2,999.00
- 
- 
-<label for="quantity" id="quantity" >Cantidad</label>
-<input type="number" class="button2" id="quantity" name="quantity" min="1" max="20">
-<a href="formularioS.HTML" class="button">Comprar</a>
-</div>
-</div>
-<div class="gallery">
-  <a target="_blank" href="img_lights.jpg">
-    <img src="https://http2.mlstatic.com/nike-mujer-tenis-D_NQ_NP_885728-MCO25568005012_052017-F.jpg" alt="Northern Lights" width="600" height="400">
-  </a>
-  <div class="desc">Tenis azules
-Precio actual $ 2,000.00
- 
- 
-<label for="quantity" id="quantity" >Cantidad</label>
-<input type="number" class="button2" id="quantity" name="quantity" min="1" max="20">
-<a href="formularioS.HTML" class="button">Comprar</a>
-</div>
-</div>
-<div class="gallery">
-  <a target="_blank" href="img_lights.jpg">
-    <img src="https://http2.mlstatic.com/tenis-zapatillas-adidas-swift-run-gris-rosada-mujer-env-gr-D_NQ_NP_666872-MCO26513844392_122017-F.jpg" alt="Northern Lights" width="600" height="400">
-  </a>
-  <div class="desc">Tenis gris con rosa
-Precio actual $ 2,999.00
- 
- 
-<label for="quantity" id="quantity" >Cantidad</label>
-<input type="number" class="button2" id="quantity" name="quantity" min="1" max="20">
-<a href="formularioS.HTML" class="button">Comprar</a>
-</div>
-</div>
- 
-<footer>
-<div class="Contacto"  id="Footer">
+             
+              </body>
+              <footer>
+<div class="Contacto" id="Footer">
 <p> ShoestoreMex@Hotmail.com   </p>
 <p> Tejedora de Aranza No .461, Jalisco </p>
 <p> 3345153054</p>
 <p>Insta:SomosShoestore</p>
 <p>Facebook:SomosShoestore</p>
- 
 </div>
 </footer>
-</div>
- 
-</body>
-</html>
+              </html>

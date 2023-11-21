@@ -15,7 +15,7 @@
 .font{
    font-size: 80px;
    text-align:center;
-   font-family:"Times New Roman",serif;
+   font-family:"Lucida Console", "Courier New", monospace;
 }
                
         body {
@@ -63,7 +63,7 @@
 }
  
 li a:hover {
-  background-color:#FFFFFf;
+  background-color:#FF92A5;
 color:black;
   text-decoration:none;
 }
@@ -79,7 +79,7 @@ color:black;
 #content img {
     position: absolute;
     top: 0px;
-    left: 0px;
+    left:0px;
 }
      
 .myDiv {
@@ -103,15 +103,22 @@ font-size: 20px;
   background-image:url("https://th.bing.com/th/id/R.02d968359f8c26a596024d1dfdadb35d?rik=FlMlk6RXCwSODg&pid=ImgRaw&r=0");
   font-size: 90px;
    text-align:center;
+   line-height:300px;
    font-family:"Times New Roman",serif;
+   height:300px;
+   weight:500px;
+ 
+ 
+  
 }
 .imagen2{
  
   border-radius: 10px;
-  padding: 10px;
+  padding: 50px;
   max width: 100%;
   height:auto;
  
+  
  
 }
 .Contacto{
@@ -121,21 +128,71 @@ font-size: 20px;
     background-color: #FF92A5;
     text-align: center;
 }
+.dropbtn {
+  background-color: #FF92A5;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-family:"Lucida Console", "Courier New", monospace;
+}
+ 
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+ 
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+ 
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+ 
+.dropdown-content a:hover {background-color: #f1f1f1}
+ 
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+ 
+.dropdown:hover .dropbtn {
+  background-color: #FF92A5;
+}
        
     </style>
 </head>
 <body>
     <header>
       <div id="content">
-    <img src="https://th.bing.com/th/id/R.7bb30ca782d3b85136b5406998e850d7?rik=q3q2HXwiSSEGdw&pid=ImgRaw&r=0" class="logo"/>
+    <img src="https://i.pinimg.com/originals/80/40/14/8040149669843a6af0e4a8f245ff7bd6.png" class="logo"/>
     <div>www.shoestore.com.mx</div>
 </div>
         <nav>
             <ul >
                 <li><a href="Shoestore.HTML">Home</a></li>
-                <li><a href="Productos.HTML">Productos</a></li>
+               <div class="dropdown">
+                                                         <button class="dropbtn">Productos</button>
+  <div class="dropdown-content">
+    <a href="Productos.HTML">Todos</a>
+  <a href="Productos.HTML #zapatos de piso">Zapatos de piso</a>
+  <a href="Productos.HTML #tacones">Tacones</a>
+  <a href="Productos.HTML #botas">Botas</a>
+  <a href="Productos.HTML #sandalias">Sandalias</a>
+  <a href="Productos.HTML #tenis">tenis</a>
+  </div>
+</div>
                 <li><a href="#Footer">Contacto</a></li>
-                                                        <li><a href="2FormularioS.HTML">Registro</a></li>
+                                                         <li><a href="2FormularioS.HTML">Registro</a></li>
             </ul>
         </nav>
       
@@ -176,5 +233,3 @@ font-size: 20px;
 </div>
 </footer>
 </html>
-</html>
-
